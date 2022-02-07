@@ -1,0 +1,55 @@
+Obiectiv general
+Realizarea unei aplicații pe una dintre temele specificate, cu back-end RESTful care accesează date stocate într-o bază relațională pe baza unui API de persistenţă și date expuse de un serviciu extern și frontend SPA în React realizat cu un framework bazat pe componente.
+
+Descriere
+Implementarea unui serviciu REST și a unei interfețe în React pentru următoarele entități: - Ship - CrewMember
+
+Ship are mai mulți CrewMember. Ship are un id (întreg, cheie primară), un nume (un string de cel puțin 3 caractere), un displacement (un număr mai mare ca 50). CrewMember are un id (întreg, cheie primară), un nume (un string de cel puțin 5 caractere), un rol (dintr-un set limitat de roluri posibile e.g. CAPTAIN, BOATSWAIN).
+
+Componente și punctaje
+Serviciu REST
+Definirea primei entități - 0.3 V
+Definire celei de-a doua entități - 0.3 V
+Definirea relației dintre cele două entități - 0.3 V
+Operație GET pentru prima entitate - 0.3 V
+Operație POST pentru prima entitate - 0.3 V
+Operație PUT pentru prima entitate - 0.3 V
+Operație DELETE pentru prima entitate - 0.3 V
+
+Operație GET pentru a doua entitate ca subresursă - 0.3 V
+Operație POST pentru a doua entitate ca subresursă - 0.3 V
+Operație PUT pentru a doua entitate ca subresursă - 0.3 V
+Operație DELETE pentru a doua entitate ca subresursă - 0.3 V
+
+Filtrare după două câmpuri pentru prima entitate - 0.3 V
+Sortare după un câmp pentru prima entitate - 0.3
+Paginare pentru prima entitate - 0.3
+Import - 0.2
+Export - 0.2
+
+Interfață SPA în React
+Rutare pe baza id-ului de entitate copil - 0.3 V
+Create pentru prima entitate - 0.3 V
+Read pentru prima entitate - 0.3 V
+Update pentru prima entitate - 0.3 V
+Delete pentru prima entitate - 0.3 V
+Create pentru a doua entitate (master-detail) - 0.3 V
+Read pentru a doua entitate (master-detail) - 0.3 V
+Update pentru a doua entitate (master-detail) - 0.3 V
+Delete pentru a doua entitate (master-detail) - 0.3 V
+
+Filtrare după după două câmpuri pentru prima entitate - 0.3 V
+Sortare după un câmp pentru prima entitate - 0.3
+Paginare pentru prima entitate - 0.3
+Interfață import - 0.2
+Interfața export - 0.2
+
+Layout cu grid/flex - 0.4
+Punctaj din oficiu - 10%
+
+Note
+Dacă aplicația nu merge pe heroku se depunctează 10%
+Dacă nu se încarcă videoclipul, lucrarea nu va fi corectată
+Videoclipul trebuie înregistrat cu facecam
+În videclip prezentați aplicația funcționând, nu codul
+După ce ați terminat, încărcați componentele răspunsului aici(https://docs.google.com/forms/d/e/1FAIpQLSdCduK8udk4INLR0FuS8o74zVgAMRs_9fMA8AXYLGww9V19Xg/formrestricted?pli=1)
